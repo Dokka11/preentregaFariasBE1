@@ -29,7 +29,7 @@ class ProductManager {
     };
 
     getProducts = async () =>{
-      return await this.readProducts();
+    return await this.readProducts();
     };
     getProductsById = async (id) =>{  
         let productsById = await this.exist(id)
